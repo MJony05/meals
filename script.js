@@ -23,7 +23,6 @@ btn.addEventListener("click", function (e) {
   container.innerHTML = "";
   e.preventDefault();
   getInfo(input.value);
-  console.log(bigdata);
 });
 function render(obj) {
   let html = `
