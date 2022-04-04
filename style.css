@@ -56,6 +56,20 @@ form {
   padding: 1rem;
   gap: 2rem;
 }
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
 .card {
   border-radius: 1rem;
   display: flex;
