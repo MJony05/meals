@@ -35,7 +35,7 @@ form {
   outline: none;
   font-weight: 400;
   color: #ff5b03;
-  width: 500px;
+  width: 100%;
   font-size: 1.2rem;
 }
 .input-search::placeholder {
@@ -69,6 +69,9 @@ form {
   .container {
     grid-template-columns: 1fr;
   }
+  form {
+    width: 95%;
+  }
 }
 .card {
   border-radius: 1rem;
@@ -88,7 +91,7 @@ form {
   width: 100%;
   border-radius: 1rem 1rem 0 0;
 
-  height: 350px;
+  /* height: 350px; */
 }
 .get-repice {
   padding: 0.5rem 2rem;
